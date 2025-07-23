@@ -15,40 +15,47 @@
     </properties>
 
     <dependencies>
-  <!-- Selenium WebDriver -->
+         <!-- Selenium WebDriver -->
         <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.21.0</version>
+            <groupId>org.seleniumhq.selenium</groupId>
+            <artifactId>selenium-java</artifactId>
+            <version>4.34.0</version>
         </dependency>
 
         <!-- Cucumber -->
         <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-java</artifactId>
-        <version>7.15.0</version>
-        </dependency>
-        <dependency>
-        <groupId>io.cucumber</groupId>
-        <artifactId>cucumber-junit</artifactId>
-        <version>7.15.0</version>
-        <scope>test</scope>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-java</artifactId>
+            <version>7.15.0</version>
+            </dependency>
+            <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.15.0</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- JUnit -->
         <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.13.2</version>
-        <scope>test</scope>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>6.0.0-M1</version>
+            <scope>test</scope>
         </dependency>
 
         <!-- WebDriver Manager (automatický ovládač pre Chrome/Edge/Firefox) -->
         <dependency>
-        <groupId>io.github.bonigarcia</groupId>
-        <artifactId>webdrivermanager</artifactId>
-        <version>6.1.0</version>
+            <groupId>io.github.bonigarcia</groupId>
+            <artifactId>webdrivermanager</artifactId>
+            <version>6.1.0</version>
         </dependency>
-        </dependencies>
+
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>2.0.13</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
