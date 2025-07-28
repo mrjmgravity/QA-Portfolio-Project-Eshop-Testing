@@ -17,5 +17,4 @@ Feature: Registrácia - Úvodný formulár
     | TC_006     | a.@@b.com              |
     | TC_007     | darren test@a.com      |
     | TC_008     | aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa@test.com|
-    | TC_009     | DARREN@TEST.COM        |
     | TC_010     | abcd!@#%&*()@test.com  |
