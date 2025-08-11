@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
   await dismissConsent(page);
 });
 
-test('Successful login', async ({ page }) => {
+test('TC_000 – Successful registration (valid name + valid email)', async ({ page }) => {
   const loginPage = new LoginPage(page);
   await loginPage.login();
   await expect(page).toHaveURL('https://automationexercise.com/signup');
