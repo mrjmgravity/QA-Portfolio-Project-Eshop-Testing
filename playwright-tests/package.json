@@ -1,0 +1,22 @@
+{
+  "name": "playwright-tests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.2",
+    "allure-playwright": "^3.3.3",
+    "dotenv": "^17.2.1"
+  },
+  "dependencies": {
+    "playwright": "^1.54.2",
+    "playwright-core": "^1.54.2"
+  },
+  "description": ""
+}
